@@ -3,7 +3,7 @@ title: Project 2 - Spam classification
 draft: false
 date: 2025-08-02 01:42:18 +0700
 ---
-## Giới thiệu
+[## Giới thiệu
 
 Phân loại thư rác (spam) là một vấn đề cổ điển và quan trọng trong xử lý ngôn ngữ tự nhiên (NLP). Mục tiêu là tự động xác định và lọc các tin nhắn không mong muốn, một nhiệm vụ đã trở nên vô cùng cần thiết trong cuộc sống số hàng ngày của chúng ta. Bài blog này trình bày chi tiết hai phương pháp tiếp cận riêng biệt để giải quyết vấn đề này: một phương pháp học máy truyền thống sử dụng Naive Bayes và một phương pháp deep learning tận dụng mô hình tiền huấn luyện và tìm kiếm tương tự FAISS.
 
@@ -71,4 +71,4 @@ Hiệu suất của phương pháp này đã được đánh giá trên tập te
 
 Cả hai phương pháp ML truyền thống và deep learning đều cung cấp các giải pháp khá tốt cho việc phân loại thư rác. Kết quả phân tích chi tiết cho thấy rằng mô hình Multinomial Naive Bayes hoạt động hiệu quả hơn đáng kể khi sử dụng BoW, đạt độ chính xác gần 97%. Điều này cho thấy rằng việc chọn mô hình phù hợp với cách tạo vector (ví dụ: Multinomial cho dữ liệu đếm) là rất quan trọng. Tuy nhiên, phương pháp deep learning, với việc sử dụng các embedding của pre-trained model cùng với FAISS, vẫn mang lại hiệu suất cao nhất. Với độ chính xác 99.28%, nó vượt trội hơn đáng kể so với tất cả các mô hình truyền thống đã thử nghiệm. Hiệu quả của phương pháp deep learning nằm ở khả năng nắm bắt ý nghĩa ngữ nghĩa tinh tế của toàn bộ câu, dẫn đến một phân loại mạnh mẽ và chính xác hơn, đặc biệt khi kết hợp với tốc độ và khả năng mở rộng của FAISS.
 
-Code của project này: [votaquangnhat/spam-classification](https://github.com/votaquangnhat/spam-classification)
+Code của project này: [votaquangnhat/spam-classification](https://github.com/votaquangnhat/spam-classification)]()
